@@ -14,7 +14,6 @@ As a web developer, you will sometimes be tasked with creating an html page simp
 
 ## I'm a Web Developer Mode
 
-* Use the provided starter files for your project
 * Using the provided desktop image, create an html document using html and css to be a pixel perfect match with the image, but be a functioning website.
 * The menu items, images, and buttons need to have differing states based on a hover, and although not articulated in the provided image, they need to be styled.
 * Use [these fonts from Google Web
