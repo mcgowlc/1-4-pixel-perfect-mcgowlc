@@ -23,8 +23,8 @@ As a web developer, you will sometimes be tasked with creating an html page simp
 * Use [the FontAwesome
   icons](http://fortawesome.github.io/Font-Awesome/cheatsheet/) for the
   "Comments", "Read Later", and "Share This" elements
-* [placeholder text of your choice](http://meettheipsums.com) for all copy
-* [placeholder images of your
+* Use [placeholder text of your choice](http://meettheipsums.com) for all copy
+* Use [placeholder images of your
   choosing](http://www.hanselman.com/blog/TheInternetsBestPlaceholderImageSitesForWebDevelopment.aspx) for all images not provided
 
 ## Hey Mikey, I Think He Likes It Mode
