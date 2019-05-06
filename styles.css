@@ -4,18 +4,22 @@ body{
   font-family: 'Lato', sans-serif;
   font-size:15px;
   background-color:#F4F4F4;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 img {
-  width:50%;
+  width: 111%
 }
 main{
-  width:80%;
+  width:50%;
   display:inline-block;
+  position: absolute;
 
 }
 aside{
-  width:25%;
-  float: right;
+  width:32%;
+  margin-left:10%;
+  float:right;
 
 }
 section{
@@ -27,11 +31,25 @@ section{
 
 }
 ul.nav-left {
-  display: inline-block;
+  display: inblock;
+
 }
 li {
   display: inline-block;
+  float:right;
 }
-header {
-  <img src="images/Reedy river4.jpeg" alt="#">
+footer: {
+  width: 12%;
+  position: relative;
+  
+}
+ul.nav-right {
+  display:block;
+}
+header.img {
+  width: 20px;
+  float: right;
+}
+aside img {
+  width: 109%;
 }
