@@ -1,76 +1,159 @@
-*{box-sizing: border-box;
+* {
+    box-sizing: border-box;
 }
-body{
-  font-family: 'Lato', sans-serif;
-  font-size:15px;
-  background-color:#F4F4F4;
-  display: inline-block;
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    background-color: #F4F4F4;
+    display: inline-block;
 }
+
 img {
-  width: 111%
+    width: 100%;
 }
+
+.kothpro {
+    display: block;
+    width: 15%;
+    margin: 0 auto;
+}
+
 nav {
-  display: inline-block;
-  width: 100%;
-  padding-top: 5px;
-  Padding-bottom: 15px;
+    display: inline-block;
+    width: 100%;
+    padding-top: 5px;
+    Padding-bottom: 15px;
+    position: relative;
+    letter-spacing: 2px;
 }
+
+.nav-bottom {
+    display: flex;
+    position: relative;
+}
+.nav-bottom > li {
+    list-style-type: none;
+    padding: 3px;
+}
+
 .container {
-  padding-left: 150px;
-  padding-right:150px;
-}
-main{
-  width:750px;
-  margin: 0px;
-  display:inline-block;
-
-
-
-}
-aside{
-  width:32%;
-  display: inline-block;
-  float:right;
-
-}
-.main-section{
-  padding:0px;
-  margin-bottom: 50px;
-  width: 700px;
-}
-.adveture {
-  padding: 0px;
-  margin-bottom: 50px;
-  width: 740px;
+    padding-left: 145px;
+    padding-right: 145px;
 }
 
-}
-ul.nav-left {
-  width: 860px;
-  padding: 0px;
-  height: 15px
+main {
+    width: 750px;
+    margin: 0px;
+    display: inline-block;
+
 
 }
-li.nav-left {
-padding: 5px;
-font-size: 10px
-font-style: bold;
-color: #444;
-{
+
+aside {
+    width: 32%;
+    display: inline-block;
+    float: right;
 
 }
-footer {
-  width: 175px;
-  height: 175px
+
+.adventure {
+    padding: 0px;
+    margin-bottom: 50px;
+    width: 700px;
+    background-color: white
+}
+
+.adventure > div {
+    margin-top: 40px;
+    font-size: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    color: red;
+}
+
+.adventure > button {
+
+    color: red;
+    font-size: 15px;
+    padding: 10px 15px;
+    position: relative;
+    left: 300px;
+    border: red solid 3px
 
 }
-ul.nav-right {
-  display:block;
+
+.adventure > img {
+    height: 470px;
 }
+
+.adventure > p {
+    padding: 20px;
+}
+.adventure > h1 {
+    text-align: center;
+}
+
+.nav-left {
+    display: inline-block;
+}
+.nav-left > li {
+    display: inline-block;
+}
+
+.nav-right {
+    display: inline-block;
+}
+.nav-right > li {
+    display: inline-block;
+}
+
+.footer > li > img {
+    width: 175px;
+    height: 175px;
+    padding: 0px;
+
+}
+
 header.img {
-  width: 20px;
-  float: right;
+    width: 20px;
+    float: right;
 }
+
 aside img {
-  width: 109%;
+    width: 109%;
+}
+
+.instagram-feed > li > img {
+    width: 125px;
+    height: 125px;
+    margin: 10px;
+}
+
+.instagram-feed > li {
+    display: inline-block;
+}
+
+.instagram-feed {
+    display: inline-block;
+    list-style-type: none;
+
+}
+
+.lower-footer {
+    background-color: rgba(33, 33, 33, 1);
+    color: rgba(136, 136, 136, 1);
+    height: 50px;
+    padding-top;
+}
+
+.footer-tile > li > img {
+    width: 175px;
+    height: 200px;
+}
+
+.footer-tile {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
 }
